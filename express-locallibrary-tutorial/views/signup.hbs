@@ -1,0 +1,51 @@
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">Home</li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Library</li>
+  </ol>
+</nav>
+
+
+<form class= "row g-3 needs- validation" method = "post" action = "/edit/{{this.id}}/{{this.First_Name}}" novalidate>
+
+<div class="col-6">
+<div class="form-floating mb-3">
+  <input type="text" class="form-control" id="floatingInput"  placeholder="First Name" name = "First_Name">
+ <label for="floatingInput">First Name </label>
+</div>
+</div>
+
+<div class="col-6">
+<div class="form-floating mb-3">
+  <input type="text" class="form-control" id="floatingInput"  placeholder="name@example.com" name = "Last_Name">
+  <label for="floatingInput">Last Name</label>
+</div>
+</div>
+<div class="col-6">
+<div class="form-floating mb-3">
+  <input type="email" class="form-control" id="floatingInput"  placeholder="name@example.com" name = "Email">
+  <label for="floatingInput">Email address</label>
+</div>
+</div>
+
+<div class="col-6">
+<div class="form-floating mb-3">
+  <input type="text" class="form-control" id="floatingInput"  placeholder="name@example.com" name = "Phone_Number">
+  <label for="floatingInput">Password</label>
+</div>
+</div>
+
+
+
+
+<div class="col-12 d-grid">
+<button class = "btn btn-primary btn-lg" type = "submit" >Submit</button>
+</div>
+
+</form>

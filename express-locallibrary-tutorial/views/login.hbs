@@ -1,0 +1,39 @@
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">Home</li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Library</li>
+  </ol>
+</nav>
+
+
+<form class= "row g-3 needs- validation" method = "post" action = "/edit/{{this.id}}/{{this.First_Name}}" novalidate>
+
+<div class="col-6">
+<div class="form-floating mb-3">
+  <input type="Email" class="form-control" id="floatingInput"  placeholder="First Name" name = "Email">
+ <label for="floatingInput">Email </label>
+</div>
+</div>
+
+<div class="col-6">
+<div class="form-floating mb-3">
+  <input type="password" class="form-control" id="floatingInput"  placeholder="name@example.com" name = "Password">
+  <label for="floatingInput">Password</label>
+</div>
+</div>
+
+
+
+
+
+<div class="col-12 d-grid">
+<button class = "btn btn-primary btn-lg" type = "submit" >Submit</button>
+</div>
+
+</form>
